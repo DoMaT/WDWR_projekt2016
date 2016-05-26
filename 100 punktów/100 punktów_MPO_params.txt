@@ -1,0 +1,10 @@
+ //Parametry MPO
+ //wartości aspiracji, utopii i nadiru kosztu średniego
+ aspiracjaK = 0;
+ utopiaK = 81635;
+ nadirK = 100400;
+ 
+ //wartości aspiracji, utopii i nadiru ryzyka
+ aspiracjaR = 0;
+ utopiaR = 866.03;
+ nadirR = 3466.8;

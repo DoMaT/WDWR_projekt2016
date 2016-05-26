@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="true" name="UtopiaNadir" category="opl">
+			<ref type="data" name="wdwr_MateuszD.dat">
+			</ref>
+			<ref type="model" name="nadir_utopia.mod">
+			</ref>
+		</config>
+		<config default="false" name="MPO" category="opl">
+			<ref type="model" name="wdwr_MateuszD.mod">
+			</ref>
+			<ref type="data" name="wdwr_MateuszD.dat">
+			</ref>
+			<ref type="data" name="MPO_values.dat">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

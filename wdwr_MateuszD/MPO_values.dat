@@ -1,0 +1,24 @@
+/*********************************************
+ * OPL 12.5.1.0 Data
+ * Author: Mateusz
+ * Creation Date: May 25, 2016 at 1:28:04 AM
+ *********************************************/
+
+ //***************Parametry MPO**********************
+
+ uMPO = 1;
+
+ beta = 0.0001;
+ epsilon = 0.00005;
+ 
+ //Parametry MPO
+ //wartoœci aspiracji, utopii i nadiru kosztu œredniego
+ aspiracjaK = 0;
+ utopiaK = 81635;
+ nadirK = 100400;
+ 
+ //wartoœci aspiracji, utopii i nadiru ryzyka
+ aspiracjaR = 0;
+ utopiaR = 866.03;
+ nadirR = 3466.8;
+ 
