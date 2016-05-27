@@ -1,0 +1,25 @@
+Sub giniCoeff()
+
+Dim i As Integer
+Dim j As Integer
+
+Dim actVal As Double
+
+Dim liczbaScen As Integer
+liczbaScen = 103
+
+For i = 4 To liczbaScen
+
+    actVal = 0
+
+    For j = 4 To liczbaScen
+    
+        actVal = actVal + Math.Abs(Worksheets("scenarios_2").Cells(i, 7) - Worksheets("scenarios_2").Cells(j, 7))
+    
+    Next j
+
+    Worksheets("scenarios_2").Cells(i, 8) = actVal / liczbaScen
+
+Next i
+
+End Sub

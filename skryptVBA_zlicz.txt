@@ -1,0 +1,27 @@
+Sub zlicz()
+
+Dim liczbaWystapien As Integer
+
+Dim i As Integer
+Dim liczbaPrzedz As Integer
+liczbaPrzedz = Worksheets("scenarios_2").Cells(4, 105)
+
+For i = 109 To 109 + liczbaPrzedz
+
+    liczbaWystapien = 0
+
+    For j = 4 To 103
+    
+        If (Worksheets("scenarios_2").Cells(7, j) > Worksheets("scenarios_2").Cells(2, i)) Then
+            If (Worksheets("scenarios_2").Cells(7, j) <= Worksheets("scenarios_2").Cells(3, i)) Then
+                liczbaWystapien = liczbaWystapien + 1
+            End If
+        End If
+                
+    Next j
+    
+    Worksheets("scenarios_2").Cells(4, i) = liczbaWystapien
+
+Next i
+
+End Sub
